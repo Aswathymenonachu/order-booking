@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --bg: #0b1020; }
+body { @apply m-0 text-slate-100 bg-[color:var(--bg)]; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, 'Helvetica Neue', Arial; }
+.container { @apply max-w-6xl mx-auto p-6; }
+.card { @apply bg-slate-900/70 border border-slate-700 rounded-2xl p-4 shadow-xl; }
+.badge { @apply rounded-full bg-indigo-900/50 text-indigo-300 px-2 py-0.5 text-xs; }

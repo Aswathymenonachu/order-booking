@@ -1,0 +1,54 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Build output
+dist/
+build/
+coverage/
+
+# Vite / Cache
+.vite/
+vite.config.ts.timestamp-*
+vite.config.ts?.*
+
+# Test / Vitest
+*.coverage/
+*.spec.ts
+*.spec.tsx
+*.test.ts
+*.test.tsx
+.vitest/
+coverage/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# OS generated
+ehthumbs.db
+Icon?
+*.log
+*.tmp
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# TypeScript
+*.tsbuildinfo
+
+# Tailwind / PostCSS caches
+.postcss-cache/
+.tailwind-cache/
