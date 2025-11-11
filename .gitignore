@@ -4,7 +4,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-package-lock.json
 pnpm-lock.yaml
 yarn.lock
 
@@ -18,14 +17,7 @@ coverage/
 vite.config.ts.timestamp-*
 vite.config.ts?.*
 
-# Test / Vitest
-*.coverage/
-*.spec.ts
-*.spec.tsx
-*.test.ts
-*.test.tsx
-.vitest/
-coverage/
+
 
 # Editor / IDE
 .vscode/
