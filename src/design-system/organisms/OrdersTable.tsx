@@ -3,7 +3,7 @@ import type { Order } from '../../types'
 import { Badge, Card } from '../atoms'
 import { RowActions } from '../molecules'
 
-function currency(n:number){ return new Intl.NumberFormat(undefined, { style:'currency', currency:'USD' }).format(n) }
+function currency(n:number){ return new Intl.NumberFormat(undefined, { style:'currency', currency:'AED' }).format(n) }
 function dt(iso:string){ return new Date(iso).toLocaleString() }
 
 export const OrdersTable: React.FC<{
