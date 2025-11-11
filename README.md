@@ -7,6 +7,7 @@ Data is dummy and stored in `localStorage`. No backend required.
 ## ⚙️ Tech Stack
 
 - ⚛️ React + TypeScript
+-  Atomic Design architecture — atoms → molecules → organisms → templates → pages
 - ⚡ Vite
 - 🧪 Vitest + React Testing Library
 - ☁️ Vercel (for hosting)
