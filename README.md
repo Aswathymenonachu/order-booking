@@ -13,6 +13,20 @@ Data is dummy and stored in `localStorage`. No backend required.
 - ☁️ Vercel (for hosting)
 - 🤖 GitHub Actions (for CI/CD)
 
+## Architecture Overview
+  design-system/
+    atoms/       # Smallest reusable components (Button, Input, Badge, etc.)
+    molecules/   # Combinations of atoms (Toolbar, RowActions)
+    organisms/   # Complex components (OrdersTable, OrderForm)
+    templates/   # Layouts combining organisms (OrdersTemplate)
+    pages/       # Page-level containers (OrdersPage)
+  store.ts       # Redux store & slice
+  types.ts       # TypeScript types (Order, OrderStatus)
+  App.tsx        # Root component
+  main.tsx       # Entry point
+  styles.scss    # Global Tailwind setup
+  __tests__/     # Vitest + RTL tests
+
 
 **Production URL:**  
 👉 [https://order-booking-beta.vercel.app](https://order-booking-beta.vercel.app)
