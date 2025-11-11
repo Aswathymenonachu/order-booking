@@ -44,3 +44,4 @@ Icon?
 # Tailwind / PostCSS caches
 .postcss-cache/
 .tailwind-cache/
+.vercel
