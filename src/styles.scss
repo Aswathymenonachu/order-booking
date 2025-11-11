@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root { --bg: #0b1020; }
+:root { --bg: #D3106B; }
 body { @apply m-0 text-slate-100 bg-[color:var(--bg)]; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, 'Helvetica Neue', Arial; }
 .container { @apply max-w-6xl mx-auto p-6; }
 .card { @apply bg-slate-900/70 border border-slate-700 rounded-2xl p-4 shadow-xl; }
