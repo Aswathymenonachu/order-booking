@@ -1,7 +1,21 @@
-# Orders CRUD (React + Vite + TypeScript + Redux Toolkit + Tailwind + SCSS)
+# Orders (React + Vite + TypeScript + Redux Toolkit + Tailwind + SCSS)
 
 A tiny React app that shows an **Orders** table with **create / view / update / delete**, a **status filter**, and a **search bar**.
 Data is dummy and stored in `localStorage`. No backend required.
+
+
+## ⚙️ Tech Stack
+
+- ⚛️ React + TypeScript
+- ⚡ Vite
+- 🧪 Vitest + React Testing Library
+- ☁️ Vercel (for hosting)
+- 🤖 GitHub Actions (for CI/CD)
+
+
+**Production URL:**  
+👉 [https://order-booking-beta.vercel.app](https://order-booking-beta.vercel.app)
+
 
 ## Run locally
 
@@ -41,3 +55,12 @@ type State = {
 - Jest DOM matchers are registered in `vitest.setup.ts`.
 - Vite config includes a `test` block for Vitest running in `jsdom`.
 - UI test stubs `window.confirm` (JSDOM).
+  
+
+  ## 🔁 Continuous Integration (CI) Setup
+
+This project uses **GitHub Actions** to automatically:
+1. Install dependencies  
+2. Run tests (`npm run test:ci`)  
+3. Build the project (`npm run build`)  
+4. Deploy to **Vercel** if all tests pass ✅  
