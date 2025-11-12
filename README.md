@@ -30,6 +30,9 @@ Data is dummy and stored in `localStorage`. No backend required.
   **Production URL:**  
 👉 [https://order-booking-beta.vercel.app](https://order-booking-beta.vercel.app)
 
+ **CI/CD Actions URL:**  
+https://github.com/Aswathymenonachu/order-booking/actions
+
 
 ## Run locally
 
