@@ -4,14 +4,14 @@ A tiny React app that shows an **Orders** table with **create / view / update / 
 Data is dummy and stored in `localStorage`. No backend required.
 
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
-- ⚛️ React + TypeScript
+-  React + TypeScript
 -  Atomic Design architecture — atoms → molecules → organisms → templates → pages
-- ⚡ Vite
-- 🧪 Vitest + React Testing Library
-- ☁️ Vercel (for hosting)
-- 🤖 GitHub Actions (for CI/CD)
+-  Vite
+-  Vitest + React Testing Library
+-  Vercel (for hosting)
+-  GitHub Actions (for CI/CD)
 
 ## Architecture Overview
   Design-system/
@@ -28,7 +28,7 @@ Data is dummy and stored in `localStorage`. No backend required.
     -   __tests__/     # Vitest + RTL tests
     
   **Production URL:**  
-👉 [https://order-booking-beta.vercel.app](https://order-booking-beta.vercel.app)
+ [https://order-booking-beta.vercel.app](https://order-booking-beta.vercel.app)
 
  **CI/CD Actions URL:**  
 https://github.com/Aswathymenonachu/order-booking/actions
@@ -74,7 +74,7 @@ type State = {
 - UI test stubs `window.confirm` (JSDOM).
   
 
-  ## 🔁 Continuous Integration (CI) Setup
+  ##  Continuous Integration (CI) Setup
 
 This project uses **GitHub Actions** to automatically:
 1. Install dependencies  
